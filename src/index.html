@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SentraFood</title>
+</head>
+
+<body class="scrollspy" id="home">
+    <!-- navbar -->
+    <div class="navbar-fixed">
+        <nav class="grey darken-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#home" class="brand-logo"><span>Sentra</span>Food</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#supports">Supports</a></li>
+                        <li><a href="#collections">Collections</a></li>
+                        <li><a href="#restaurants">Restaurants</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- sidenav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#supports">Supports</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#restaurants">Restaurants</a></li>
+    </ul>
+    <!-- alhir sidenav -->
+
+    <!-- akhir navbar -->
+
+    <!-- slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="./img/slider/slider1.jpg" alt="slider1" />
+                <div class="caption left-align">
+                    <h3>Get your favorite food.</h3>
+                </div>
+            </li>
+            <li>
+                <img src="./img/slider/slider2.jpg" alt="slider2" />
+                <div class="caption right-align">
+                    <h3>Enjoy fun with friends.</h3>
+                </div>
+            </li>
+            <li>
+                <img src="./img/slider/slider3.jpg" alt="slider3" />
+                <div class="caption center-align">
+                    <h3>Variety of delicious food</h3>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- akhir slider -->
+
+    <!-- about us -->
+    <section class="about scrollspy" id="about">
+        <div class="container">
+            <div class="row">
+                <h3 class="light center grey-text text-darken-3">
+                    About Us
+                </h3>
+                <div class="col m12 s12 light center">
+                    <h5>SentraFood adalah aplikasi pencarian lokasi restaurant yang sesuai dengan keinginan anda.
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir about -->
+
+    <!-- parallax supports-->
+    <div class="parallax-container scrollspy" id="supports">
+        <div class="parallax"><img src="./img/makanan/all-food.png" alt="all-food" /></div>
+        <div class="container supports">
+            <h3 class="center light black-text">Support By</h3>
+            <div class="row">
+                <div class="col m6 s12 center">
+                    <a href="https://www.dicoding.com/"><img src="./img/support/dicoding.png" alt="dicoding" /></a>
+                </div>
+                <div class="col m6 s12 center">
+                    <a href="https://www.zomato.com/"><img src="./img/support/Zomato.png" alt="zomato" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- akhir parallax -->
+
+    <!-- collections -->
+    <section class="collections scrollspy grey lighten-3" id="collections">
+        <div class="container collections">
+            <h3 class="light center grey-text text-darken-3">Collections</h3>
+            <div class="row collect">
+            </div>
+        </div>
+    </section>
+
+    <!-- akhir collections -->
+
+    <!-- restaurants -->
+    <section class="restaurants scrollspy" id="restaurants">
+        <div class="container">
+            <h3 class="light center grey-text text-darken-3">Restaurants</h3>
+            <search-bar></search-bar>
+            <div class="row resto">
+
+            </div>
+        </div>
+    </section>
+    <!-- akhir restaurants -->
+
+    <!-- modal detail restoran -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+        </div>
+    </div>
+    <!-- akhir modal detail restoran -->
+
+    <!-- footer -->
+    <my-footer></my-footer>
+    <!-- akhir footer -->
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+/* Navbar */
+.brand-logo {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.brand-logo span {
+    color: #d32f2f;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+.slider h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Parallax support */
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.supports img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+/* Collections */
+.collect .card {
+    height: 350px;
+    border-radius: 10px;
+}
+
+.collect img {
+    width: 200px;
+    height: 200px;
+}
+
+.collect a {
+    color: black;
+}
+
+/* Restaurants */
+.restaurants .card {
+    border-radius: 10px;
+}
+
+.restaurants h4 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+}
+
+.restaurants p {
+    font-size: 12px;
+}
+
+/* Modal detain restaurant */
+.modal {
+    border-radius: 10px;
+}
+
+.modal img {
+    padding-top: 8px;
+    width: 320px;
+    height: 300px;
+}
+
+.modal .collection {
+    width: 320px;
+    height: 300px;
+}
+
+.modal .collection .collection-item {
+    text-align: left;
+}
+
+.modal .collection h4 {
+    text-align: center;
+}
+
+/* All Section */
+section {
+    padding: 20px 0;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    .collect img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .restaurants p {
+        font-size: 16px;
+    }
+
+}
